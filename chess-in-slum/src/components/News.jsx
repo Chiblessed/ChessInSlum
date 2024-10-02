@@ -13,7 +13,7 @@ const News = () => {
       </h2>
       <div className="grid grid-cols-3 sm:grid-cols-1 sm:gap-9 gap-2 md:px-2 px-24 sm:px-4 xl:px-[6rem] ">
         <div className="bg-[#F3FFF5] ">
-          <img src={Newsimage1} alt="" />
+          <img loading="lazy" src={Newsimage1} alt="" />
           <h2 className=" mt-5 mb-4 pr-44 pl-8 sm:pr-2 md:pr-2">
             How we started: The Majidun Chess Dream
           </h2>
@@ -28,7 +28,7 @@ const News = () => {
         </div>
 
         <div className="bg-[#FFFDF5] ">
-          <img src={Newsimage2} alt="" />
+          <img loading="lazy" src={Newsimage2} alt="" />
           <h2 className=" mt-5 mb-4 pr-40 sm:pr-4 pl-8 md:pr-4">
             Meet the Oshodi Champ: Adeoye Fawas
           </h2>
@@ -44,7 +44,7 @@ const News = () => {
         </div>
 
         <div className="bg-[#F7F4FF] ">
-          <img src={Newsimage3} alt="" />
+          <img loading="lazy" src={Newsimage3} alt="" />
           <h2 className=" mt-5 mb-4 pr-40 sm:pr-4 pl-8 md:pr-2">
             Meet the Makoko Champ: Ferdinard Maumo
           </h2>

@@ -73,39 +73,39 @@ const About = () => {
         <img src={Aboutimage10} alt="" />
         <img src={Aboutimage9} alt="" />
 
-        <img src={Aboutimage8} alt="" />
-        <img src={Aboutimage1} alt="" />
-        <img src={Aboutimage11} alt="" />
-        <img src={Aboutimage7} alt="" />
+        <img loading="lazy" src={Aboutimage8} alt="" />
+        <img loading="lazy" src={Aboutimage1} alt="" />
+        <img loading="lazy" src={Aboutimage11} alt="" />
+        <img loading="lazy" src={Aboutimage7} alt="" />
       </div>
       <div className="flex flex-col items-center justify-center">
         <h2 className="text-center text-5xl sm:text-4xl font-[700] mt-24">
           The dream team
         </h2>
-        <div className="grid grid-cols-4 gap-[95px] lg:gap-[100px] md:gap-2 sm:grid-cols-2 sm:gap-2 sm:mx-1 mx-[1rem] mt-14">
+        <div className="grid grid-cols-4 gap-[95px] lg:gap-[100px] md:gap-4 sm:grid-cols-2 sm:gap-2 sm:mx-1 mx-[6rem] mt-14">
           <div>
-            <img src={Team1} alt="" className="" />
+            <img loading="lazy" src={Team1} alt="" className="" />
             <p className="text-center mt-5">Tunde Onakoya</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Founder & Convener
             </p>
           </div>
           <div>
-            <img src={Team2} alt="" />
+            <img loading="lazy" src={Team2} alt="" />
             <p className="text-center mt-5">Veronica Akaolisa Egere</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Partnership Manager
             </p>
           </div>
           <div>
-            <img src={Team3} alt="" />
+            <img loading="lazy" src={Team3} alt="" />
             <p className="text-center mt-5">Emmanuel Abiodun Oke</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Chief Operations Officer
             </p>
           </div>
           <div>
-            <img src={Team4} alt="" />
+            <img loading="lazy" src={Team4} alt="" />
             <p className="text-center mt-5">Esther Hunkuten</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Scholarship Manager
@@ -113,28 +113,28 @@ const About = () => {
           </div>
 
           <div>
-            <img src={Team23} alt="" />
+            <img loading="lazy" src={Team23} alt="" />
             <p className="text-center mt-5">Samuel Awobajo</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Project Coordinator Officer
             </p>
           </div>
           <div>
-            <img src={Team5} alt="" />
+            <img loading="lazy" src={Team5} alt="" />
             <p className="text-center mt-5">Aaron Thompson</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               International Outreach
             </p>
           </div>
           <div>
-            <img src={Team3} alt="" />
+            <img loading="lazy" src={Team3} alt="" />
             <p className="text-center mt-5">David Sterling</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Corporate Outreach
             </p>
           </div>
           <div>
-            <img src={Team6} alt="" />
+            <img loading="lazy" src={Team6} alt="" />
             <p className="text-center mt-5">Shedrack Osuala</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Community Outreach
@@ -142,26 +142,26 @@ const About = () => {
           </div>
 
           <div>
-            <img src={Team7} alt="" />
+            <img loading="lazy" src={Team7} alt="" />
             <p className="text-center mt-5">Adebowale Ogunfadebo</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Photography & Videography
             </p>
           </div>
           <div>
-            <img src={Team8} alt="" />
+            <img loading="lazy" src={Team8} alt="" />
             <p className="text-center mt-5">Oluwafunmilayo Oyeniran</p>
             <p className="text-center mt-2 text-[#5B5B5B]">Editorial</p>
           </div>
           <div>
-            <img src={Team9} alt="" />
+            <img loading="lazy" src={Team9} alt="" />
             <p className="text-center mt-5">Adebiyi Olaniyan</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Graphics & Illustrations
             </p>
           </div>
           <div>
-            <img src={Team10} alt="" />
+            <img loading="lazy" src={Team10} alt="" />
             <p className="text-center mt-5">Olashile Ayobami</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Web Design & Management
@@ -169,74 +169,74 @@ const About = () => {
           </div>
 
           <div>
-            <img src={Team11} alt="" />
+            <img loading="lazy" src={Team11} alt="" />
             <p className="text-center mt-5">Ayodele Noutouglo</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Website Management
             </p>
           </div>
           <div>
-            <img src={Team12} alt="" />
+            <img loading="lazy" src={Team12} alt="" />
             <p className="text-center mt-5">Amarachi Asinobi</p>
             <p className="text-center mt-2 text-[#5B5B5B]">Global Comms</p>
           </div>
           <div>
-            <img src={Team17} alt="" />
+            <img loading="lazy" src={Team17} alt="" />
             <p className="text-center mt-5">Freedom Kolushade</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Administrative Officer
             </p>
           </div>
           <div>
-            <img src={Team13} alt="" />
+            <img loading="lazy" src={Team13} alt="" />
             <p className="text-center mt-5">Peter Abidogun</p>
             <p className="text-center mt-2 text-[#5B5B5B]">Chess Education</p>
           </div>
 
           <div>
-            <img src={Team14} alt="" />
+            <img loading="lazy" src={Team14} alt="" />
             <p className="text-center mt-5">Samson Ofubu</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Website Management
             </p>
           </div>
           <div>
-            <img src={Team15} alt="" />
+            <img loading="lazy" src={Team15} alt="" />
             <p className="text-center mt-5">Gideon Sam Itepu</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Mental Maths Cordinator
             </p>
           </div>
           <div>
-            <img src={Team16} alt="" />
+            <img loading="lazy" src={Team16} alt="" />
             <p className="text-center mt-5">Dr. Fafiola</p>
             <p className="text-center mt-2 text-[#5B5B5B]">Medicals</p>
           </div>
           <div>
-            <img src={Team18} alt="" />
+            <img loading="lazy" src={Team18} alt="" />
             <p className="text-center mt-5">Ademola Adeleye</p>
             <p className="text-center mt-2 text-[#5B5B5B]">Child Support</p>
           </div>
 
           <div className="">
-            <img src={Team19} alt="" />
+            <img loading="lazy" src={Team19} alt="" />
             <p className="text-center mt-5">Oladotun Giwa</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Inventory & Asset Management
             </p>
           </div>
           <div className="">
-            <img src={Team20} alt="" />
+            <img loading="lazy" src={Team20} alt="" />
             <p className="text-center mt-5">Dolapo Oyenuga</p>
             <p className="text-center mt-2 text-[#5B5B5B]">Event Management</p>
           </div>
           <div className="">
-            <img src={Team21} alt="" />
+            <img loading="lazy" src={Team21} alt="" />
             <p className="text-center mt-5">Mary Udoh</p>
             <p className="text-center mt-2 text-[#5B5B5B]">Welfare</p>
           </div>
           <div className="">
-            <img src={Team22} alt="" />
+            <img loading="lazy" src={Team22} alt="" />
             <p className="text-center mt-5">Hazel Iwendi</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Volunteer Management
@@ -249,40 +249,40 @@ const About = () => {
         </h2>
         <div className="grid grid-cols-4 mx-[5rem] lg:grid-cols-4 lg:mx-[3rem] md:mx-0 md:grid-cols-3 sm:gap-2 sm:mx-1 sm:grid-cols-2 mt-14 place-items-center mb-28">
           <div>
-            <img src={Board1} alt="" className="ml-8 sm:ml-0" />
+            <img loading="lazy" src={Board1} alt="" className="ml-8 sm:ml-0" />
             <p className="text-center mt-5">Obinna Ogbonnaya</p>
             <p className="text-center mt-2 text-[#5B5B5B] lg:px-10">
               International Chess Arbiter, FIDE Technical Adviser
             </p>
           </div>
           <div>
-            <img src={Board2} alt="" className="ml-8 sm:ml-0" />
+            <img loading="lazy" src={Board2} alt="" className="ml-8 sm:ml-0" />
             <p className="text-center mt-5">Daniel Anwuli</p>
             <p className="text-center mt-2 text-[#5B5B5B] lg:px-10">
               International Chess Master and West African Chess Champion
             </p>
           </div>
           <div>
-            <img src={Board3} alt="" />
+            <img loading="lazy" src={Board3} alt="" />
             <p className="text-center mt-5">Kabir Ahmed</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               CEO, Hydeashub Limited
             </p>
           </div>
           <div>
-            <img src={Board4} alt="" />
+            <img loading="lazy" src={Board4} alt="" />
             <p className="text-center mt-5">Carey Fan</p>
             <p className="text-center mt-2 text-[#5B5B5B]">CEO, Chesskid</p>
           </div>
           <div className="mt-10">
-            <img src={Board5} alt="" />
+            <img loading="lazy" src={Board5} alt="" />
             <p className="text-center mt-5">Bunmi Akinyemiju</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Venture Garden Foundation
             </p>
           </div>
           <div className="mt-10">
-            <img src={Board6} alt="" />
+            <img loading="lazy" src={Board6} alt="" />
             <p className="text-center mt-5">Kunmi Demuren</p>
             <p className="text-center mt-2 text-[#5B5B5B]">
               Venture Garden Foundation

@@ -17,12 +17,12 @@ const Approach = () => {
         and empower the minds of children in impoverished communities
       </p>
       <div className="grid grid-cols-3 sm:grid-cols-2 gap-2 sm:mx-2">
-        <img src={Approach1} alt="" />
-        <img src={Approach2} alt="" />
-        <img src={Approach3} alt="" />
-        <img src={Approach4} alt="" />
-        <img src={Approach5} alt="" />
-        <img src={Approach6} alt="" />
+        <img loading="lazy" src={Approach1} alt="" />
+        <img loading="lazy" src={Approach2} alt="" />
+        <img loading="lazy" src={Approach3} alt="" />
+        <img loading="lazy" src={Approach4} alt="" />
+        <img loading="lazy" src={Approach5} alt="" />
+        <img loading="lazy" src={Approach6} alt="" />
       </div>
       <button className="mt-10 bg-black text-white w-36 font-normal text-lg rounded-full mb-7 py-2 hover:border-2 hover:border-black hover:bg-transparent  hover:text-black">
         Learn More

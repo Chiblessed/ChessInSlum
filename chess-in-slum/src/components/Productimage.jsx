@@ -10,6 +10,7 @@ const Productimage = ({ primaryImage, hoverImage, altText }) => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <img
+      loading="lazy"
         src={isHovered ? hoverImage : primaryImage}
         alt={altText}
         className="w-full md:w-full  flex items-center justify-center h-full  transition-opacity duration-300 ease-in-out"

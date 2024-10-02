@@ -78,7 +78,7 @@ const Walloffame = () => {
             </div>
           </div>
 
-          <p className="pr-5 pl-[89px] md:pl-20 md:pr-0 sm:pl-1 sm:pr-0">
+          <p className="pr-5 pl-[89px] md:pr-5 md:pl-[4.5rem] sm:pl-1 sm:pr-0">
             The Canadian High Commission visited these awesome kids at the
             Oshodi Underbridge! ❤️ We’re around to support @chessinslums and
             their fantastic work to uplift communities through chess
@@ -98,7 +98,7 @@ const Walloffame = () => {
             </div>
           </div>
 
-          <p className="pl-[75px] pr-6 sm:pl-2 sm:pr-0 ">
+          <p className="pl-[75px] pr-6 sm:pl-2 sm:pr-0 md:pr-5 md:pl-[4.5rem]">
             It is indeed possible to do great things from a small place. Well
             done @chessinslums 👑♟
           </p>
@@ -114,14 +114,14 @@ const Walloffame = () => {
               <p className="text-[#5E5E5E] text-sm mb-5">@Evra</p>
             </div>
           </div>
-          <p className="pl-[68px] sm:pl-0 ">
+          <p className="pl-[68px] sm:pl-0 md:pr-5 md:pl-[4.5rem] ">
             Checkmate ♟Evra bus 🚃 stop #Nigeria! 🔥🇳🇬 I’m soo impressed by
             those genius kids @Tunde... 🙏@burnaboy #ilovethisgame
             #positive4evra
           </p>
         </div>
 
-        <div className="border-solid border-[1px]  border-black flex flex-col md:h-[30rem] lg:h-[26rem] sm:-mt-[8.5rem] sm:h-[500px] py-2 sm:px-2 px-5 row-span-2  h-[335px]">
+        <div className="border-solid border-[1px] md:mb-[85px] border-black flex flex-col md:h-[28rem] lg:h-[26rem] sm:-mt-[8.5rem] sm:h-[500px] py-2 sm:px-2 px-5 row-span-2  h-[335px]">
           <div className="flex gap-5">
             <div>
               <img src={Chipper} alt="" className="pt-4 " />
@@ -132,7 +132,7 @@ const Walloffame = () => {
             </div>
           </div>
 
-          <p className="pl-[66px] sm:pl-0">
+          <p className="pl-[66px] sm:pl-0 md:pr-5 md:pl-[4.5rem]">
             It’s amazing what kids can do when they’re empowered! Thanks to
             @Tunde_OD for letting us in on the amazing work he has been doing
             with @chessinslums Africa. Together, we visited the biggest floating
@@ -141,7 +141,7 @@ const Walloffame = () => {
           </p>
         </div>
 
-        <div className="border-solid border-[1px] border-black  flex flex-col md:h-[19rem] md:-mt-[9rem] sm:-mt-1 py-4 sm:h-full -mt-28 h-56">
+        <div className="border-solid border-[1px] border-black  flex flex-col md:h-[17rem] md:-mt-[6rem] sm:-mt-1 py-4 sm:h-full -mt-28 h-56">
           <div className="flex gap-5 px-4  sm:gap-1 sm:px-1">
             <div>
               <img src={Damilola} alt="" className="" />
@@ -151,14 +151,14 @@ const Walloffame = () => {
               <p className="text-[#5E5E5E] text-sm mb-5">@DamiOyedele</p>
             </div>
           </div>
-          <p className="pr-[3rem] pl-[5rem]  sm:pr-0 sm:pl-2 text-base">
+          <p className="pr-[3rem] pl-[5rem] md:pr-5 md:pl-[4.5rem]  sm:pr-0 sm:pl-2 text-base">
             Took everything in me not to bawl while reading this thread. This
             initiative is writing the future of Nigeria. Please read and support
             ❤️
           </p>
         </div>
 
-        <div className="border-solid border-[1px] border-black flex flex-col px-6 md:-mt-[5rem] sm:-mt-1 sm:px-2 -mt-7 py-4">
+        <div className="border-solid border-[1px] border-black flex flex-col px-6 md:-mt-[1rem] sm:-mt-1 sm:px-2 -mt-7 py-4">
           <div className="flex gap-5 sm:gap-1">
             <div>
               <img src={Kate} alt="" className="" />
@@ -168,14 +168,14 @@ const Walloffame = () => {
               <p className="text-[#5E5E5E] text-sm mb-5">@HenshawKate</p>
             </div>
           </div>
-          <p className="pl-[66px] sm:pl-0 ">
+          <p className="pl-[66px] sm:pl-0 md:pr-5 md:pl-[4.5rem]">
             Little drops make a mighty ocean. 🙏 Again I applaud you Tunde...
             You will never tire and great doors will be opened to you because
             you cared for others other than yourself..
           </p>
         </div>
 
-        <div className="border-solid border-[1px]  border-black flex flex-col md:h-[19rem] md:-mt-[6rem] sm:-mt-[12.5rem] -mt-[75px] sm:px-2 sm:h-full px-5 py-4 h-52">
+        <div className="border-solid border-[1px]  border-black flex flex-col md:h-[19rem] md:-mt-[4rem] sm:-mt-[12.5rem] -mt-[75px] sm:px-2 sm:h-full px-5 py-4 h-52">
           <div className="flex gap-5">
             <div>
               <img src={Manji} alt="" className="" />
@@ -185,7 +185,7 @@ const Walloffame = () => {
               <p className="text-[#5E5E5E] text-sm mb-5">@ChetoManji</p>
             </div>
           </div>
-          <p className="pl-[66px] sm:pl-0">
+          <p className="pl-[66px] sm:pl-0 md:pr-5 md:pl-[4.5rem]">
             What a moving story. Well done t@Tunde_OD and team. I suspect we’ll
             hear more amazing stories about Ferdinand in the not-so-distant
             future.
@@ -202,12 +202,12 @@ const Walloffame = () => {
               <p className="text-[#5E5E5E] text-sm mb-5">@SavvyRinu</p>
             </div>
           </div>
-          <p className="pl-[66px] sm:pl-0 ">
+          <p className="pl-[66px] sm:pl-0 md:pr-5 md:pl-[4.5rem]">
             This is huge. Thank you for taking on these grassroots initiatives.
             Thank you Tunde 🙏
           </p>
         </div>
-        <div className="border-solid border-[1px] border-black flex flex-col md:h-[16rem] md:-mt-1 sm:h-[14rem] h-48 sm:px-2 px-5 py-4  sm:-mt-[11.5rem] -mt-11">
+        <div className="border-solid border-[1px] border-black flex flex-col md:h-[16rem] md:-mt-[90px] sm:h-[14rem] h-48 sm:px-2 px-5 py-4  sm:-mt-[11.5rem] -mt-11">
           <div className="flex gap-5">
             <div>
               <img src={Paris} alt="" className="" />
@@ -217,13 +217,13 @@ const Walloffame = () => {
               <p className="text-[#5E5E5E] text-sm mb-5">@ParisHilton</p>
             </div>
           </div>
-          <p className="pl-[65px] pr-7 md:pr-3 sm:pr-0 sm:pl-0">
+          <p className="pl-[65px] pr-7 md:pr-5 md:pl-[4.5rem] sm:pr-0 sm:pl-0">
             My pleasure. 😇 Thank you for what you are doing to help these
             children. May God always bless you🙏❤️
           </p>
         </div>
 
-        <div className="border-solid border-[1px]  border-black flex flex-col md:h-[26rem] sm:px-2 sm:h-[26rem] px-5 py-4 md:-mt-[10px] sm:mt-1 -mt-10 h-72">
+        <div className="border-solid border-[1px]  border-black flex flex-col md:h-[23rem] sm:px-2 sm:h-[26rem] px-5 py-4 md:-mt-[12px] sm:mt-1 -mt-10 h-72">
           <div className="flex gap-5">
             <div>
               <img src={Latefat} alt="" className="" />
@@ -233,7 +233,7 @@ const Walloffame = () => {
               <p className="text-[#5E5E5E] text-sm mb-5">@LateefSaka</p>
             </div>
           </div>
-          <p className="pl-20 sm:pl-0">
+          <p className="pl-20 sm:pl-0 md:pr-6 md:pl-[4.5rem]">
             This most likely the most beautiful thing I’ve seen on Twitter in a
             very long time. I love how these children and yound men have been
             shown and their stories without poverty or any preconceived bias
@@ -251,7 +251,7 @@ const Walloffame = () => {
               <p className="text-[#5E5E5E] text-sm mb-5">@mrmacaronii</p>
             </div>
           </div>
-          <p className="pl-[68px] sm:pl-0">
+          <p className="pl-[68px] sm:pl-0 md:pr-5 md:pl-[4.5rem]">
             Improving lives, developing the community and creating an enabling
             environment where every Nigerian Youth can succeed. This is what
             leadership should be about. Thank you @Tunder_OD This is absolutely

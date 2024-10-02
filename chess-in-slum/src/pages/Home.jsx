@@ -38,23 +38,23 @@ const Home = () => {
         </div>
 
         <div className=" grid grid-cols-2 gap-3 mx-20 px-2 md:mx-0 xl:pr-[3.5rem] md:px-0 sm:mx-3">
-          <img className="w-96 h-48  " src={Image1} alt="" />
-          <img className="w-96 h-48  " src={Image2} alt="" />
-          <img className="w-96" src={Image3} alt="" />
-          <img className="w-96" src={Image4} alt="" />
+          <img className="w-96 h-48  " src={Image1} alt="" loading="lazy" />
+          <img className="w-96 h-48  " src={Image2} alt="" loading="lazy"/>
+          <img className="w-96" src={Image3} alt="" loading="lazy"/>
+          <img className="w-96" src={Image4} alt="" loading="lazy"/>
         </div>
       </section>
       <div className="overflow-hidden mt-36 flex items-center justify-center xl:mx-[7rem] sm:mx-10 md:mx-10 mx-32 sm:flex-col">
         <p className="text-xl sm:text-lg">Supported by</p>
         <div className="wrapper sm:max-w-full sm:mr-10 md:max-w-[35rem] xl:max-w-[40rem]">
-          <img className="h-10  item item1" src={Chesskid} alt="Chesskid" />
-          <img className="h-10  item item2" src={Chesscom} alt="Chess.com" />
-          <img className="h-10  item item3" src={Piggyvest} alt="Piggyvest" />
-          <img className="h-10  item item4" src={Chessable} alt="Chessable" />
-          <img className="h-10  item item5" src={Chesskid} alt="Chesskid" />
-          <img className="h-10   item item6" src={Chesscom} alt="Chess.com" />
-          <img className="h-10  item item7" src={Piggyvest} alt="Piggyvest" />
-          <img className="h-10  item item8" src={Chessable} alt="Chessable" />
+          <img className="h-10  item item1" src={Chesskid} alt="Chesskid" loading="lazy"/>
+          <img className="h-10  item item2" src={Chesscom} alt="Chess.com" loading="lazy"/>
+          <img className="h-10  item item3" src={Piggyvest} alt="Piggyvest" loading="lazy"/>
+          <img className="h-10  item item4" src={Chessable} alt="Chessable" loading="lazy"/>
+          <img className="h-10  item item5" src={Chesskid} alt="Chesskid" loading="lazy"/>
+          <img className="h-10   item item6" src={Chesscom} alt="Chess.com" loading="lazy"/>
+          <img className="h-10  item item7" src={Piggyvest} alt="Piggyvest" loading="lazy"/>
+          <img className="h-10  item item8" src={Chessable} alt="Chessable" loading="lazy"/>
         </div>
       </div>
       <Unveil />

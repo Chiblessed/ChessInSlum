@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="navbar-container xl:px-[6rem] px-[10rem] lg:px-[23rem]  sm:px-4  md:px-10">
+    <header className="navbar-container xl:px-[6rem] px-[10rem] lg:px-[23rem]  sm:px-4  md:px-10  ">
       <div className="logo py-5">
         <Link to="/">
           <svg

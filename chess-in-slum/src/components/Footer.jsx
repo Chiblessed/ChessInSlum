@@ -6,7 +6,7 @@ import Linked from "../assets/linkedin logo.png";
 
 const Footer = () => {
   return (
-    <div className="h-full bg-[#0D101C] mx-[90px] md:mx-0 xl:mx-[6rem] sm:mx-0  mt-10">
+    <div className="h-full bg-[#0D101C] mx-[90px] md:mx-0 xl:mx-[6rem] sm:mx-0  mt-10 mb-20">
       <div className="flex flex-col items-center justify-center">
         <h2 className="text-5xl  font-[700] pt-16 text-white">Support us</h2>
         <div className="text-white mt-14 flex gap-5">
@@ -18,7 +18,7 @@ const Footer = () => {
           </button>
         </div>
         <hr className="w-[54rem] mt-28 mb-20  sm:w-[23rem] md:w-full" />
-        <div className="flex sm:flex-col md:gap-10 sm:gap-10 justify-between gap-56 mb-10">
+        <div className="flex sm:flex-col md:gap-56 sm:gap-10 justify-between gap-56 mb-10">
           <div className="w-56 ">
             <svg
               width="100"
