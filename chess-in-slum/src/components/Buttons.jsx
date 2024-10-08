@@ -27,7 +27,7 @@ function Buttons({ menuItems, filterItems, setItems }) {
       {menuItems.map((val, index) => (
         <button
           key={index}
-          className={`w-[89px] sm:w-28 h-[40px] rounded-[32px] ${
+          className={`w-[119px] sm:w-28 h-[40px] rounded-[32px] ${
             activeIndex === index
               ? "bg-black text-white w-[125px]"
               : " text-black"

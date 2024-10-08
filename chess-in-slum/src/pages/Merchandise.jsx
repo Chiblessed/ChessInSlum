@@ -10,6 +10,16 @@ import Star from "../assets/Star.png";
 const Merchandise = () => {
   const images = [Fila, Image4, Image2, Image3, Image1];
   const [activeIndex, setActiveIndex] = useState(0);
+  const [count, setCount] = useState(1);
+
+
+  function handleIncrement(){
+    setCount(prevCount => prevCount + 1)
+  }
+
+  function handleDecrement(){
+    setCount(prevCount => Math.max(prevCount - 1, 0))
+  }
 
   const handleImageClick = (index) => {
     setActiveIndex(index);
@@ -35,7 +45,7 @@ const Merchandise = () => {
   return (
     <div>
       <div className="flex items-center justify-center gap-20 md:gap-3 mx-[6rem] mt-10 md:mt-5 lg:gap-24 lg:mx-[6.5rem]  sm:flex-col sm:mx-0  md:mx-[3rem]">
-        <div className="flex-col items-center lg:ml-0 md:ml-10 lg:bg-yellow-500">
+        <div className="flex-col items-center lg:ml-0 md:ml-10 ">
           <div className="flex gap-2 items-center sm:gap-0 mb-4  lg:gap-2 ">
             <svg
               onClick={handlePrevClick}
@@ -126,13 +136,17 @@ const Merchandise = () => {
           <p className="text-[#59CC92] text-lg font-normal mb-2 sm:text-left sm:pl-10">In stock</p>
           <div className="flex sm:px-3">
             <div className="flex gap-[1px] mr-4 md:mr-2">
-              <button className="bg-[#F0F0F0] px-3 rounded py-0 h-[56px] text-2xl text-black">
+              <button 
+              onClick={handleDecrement}
+              className="bg-[#F0F0F0] px-3 rounded py-0 h-[56px] text-2xl text-black">
                 -
               </button>
               <button className="bg-[#F0F0F0] px-3 rounded py-2 h-[56px] text-lg text-black">
-                1
+                {count}
               </button>
-              <button className="bg-[#F0F0F0] px-3 rounded py-2 h-[56px] text-lg text-black">
+              <button 
+              onClick={handleIncrement}
+              className="bg-[#F0F0F0] px-3 rounded py-2 h-[56px] text-lg text-black">
                 +
               </button>
             </div>
