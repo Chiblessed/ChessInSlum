@@ -1,5 +1,4 @@
 import {React, Suspense, lazy} from "react";
-import { HashRouter as Router } from "react-router-dom"; // Import HashRouter
 import Image1 from "../assets/home image/img1.jpg";
 import Image2 from "../assets/home image/img2.jpg";
 import Image3 from "../assets/home image/img5.png";
@@ -8,6 +7,12 @@ import Piggyvest from "../assets/home image/Piggyvest Logo.png";
 import Chessable from "../assets/home image/Chessable Logo.png";
 import Chesskid from "../assets/home image/Chesskid Logo.png";
 import Chesscom from "../assets/home image/Chess.com Logo.png";
+import Approach from "../components/Approach";
+import Program from "../components/Program";
+import Display from "../components/Display";
+import News from "../components/News";
+import Walloffame from "../components/Walloffame";
+import Feature from "../components/Feature";
 import "../pages/Home.css";
 
 
@@ -23,7 +28,6 @@ const Feature = lazy(() => import("../components/Feature"));
 
 const Home = () => {
   return (
-    <Router> 
     <>
       <section className="flex items-center justify-around gap-10 mt-20 xl:px-10  font-josefin sm:flex-col">
         <div className="mx-20 md:mx-10 sm:mx-10  mb-10 lg:mx-14">
@@ -63,18 +67,14 @@ const Home = () => {
           <img className="h-10  item item8" src={Chessable} alt="Chessable" loading="lazy"/>
         </div>
       </div>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Unveil />
-        <Approach />
-        <Program />
-        <Display />
-        <News />
-        <Walloffame />
-        <Feature />
-      </Suspense>
-
+      <Unveil />
+      <Approach />
+      <Program />
+      <Display />
+      <News />
+      <Walloffame />
+      <Feature />
     </>
-    </Router>
   );
 };
 
