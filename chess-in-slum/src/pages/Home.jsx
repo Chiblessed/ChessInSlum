@@ -1,4 +1,5 @@
 import {React, Suspense, lazy} from "react";
+import { HashRouter as Router } from "react-router-dom"; // Import HashRouter
 import Image1 from "../assets/home image/img1.jpg";
 import Image2 from "../assets/home image/img2.jpg";
 import Image3 from "../assets/home image/img5.png";
@@ -22,6 +23,7 @@ const Feature = lazy(() => import("../components/Feature"));
 
 const Home = () => {
   return (
+    <Router> 
     <>
       <section className="flex items-center justify-around gap-10 mt-20 xl:px-10  font-josefin sm:flex-col">
         <div className="mx-20 md:mx-10 sm:mx-10  mb-10 lg:mx-14">
@@ -72,6 +74,7 @@ const Home = () => {
       </Suspense>
 
     </>
+    </Router>
   );
 };
 
