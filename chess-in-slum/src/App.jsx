@@ -1,6 +1,6 @@
 
 import './App.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import {HashRouter as Router, Route, Routes} from 'react-router-dom'
 import Navbar from './components/navbar/Navbar';
 import Home from './pages/Home';
 import Footer from './components/Footer';
