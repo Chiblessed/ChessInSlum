@@ -7,6 +7,7 @@ import Piggyvest from "../assets/home image/Piggyvest Logo.png";
 import Chessable from "../assets/home image/Chessable Logo.png";
 import Chesskid from "../assets/home image/Chesskid Logo.png";
 import Chesscom from "../assets/home image/Chess.com Logo.png";
+import Unveil from "../components/Unveil";
 import Approach from "../components/Approach";
 import Program from "../components/Program";
 import Display from "../components/Display";
