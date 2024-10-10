@@ -17,13 +17,6 @@ import "../pages/Home.css";
 
 
 
-const Unveil = lazy(() => import("../components/Unveil"));
-const Approach = lazy(() => import("../components/Approach"));
-const Program = lazy(() => import("../components/Program"));
-const Display = lazy(() => import("../components/Display"));
-const News = lazy(() => import("../components/News"));
-const Walloffame = lazy(() => import("../components/Walloffame"));
-const Feature = lazy(() => import("../components/Feature"));
 
 
 const Home = () => {
