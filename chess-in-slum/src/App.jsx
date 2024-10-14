@@ -1,35 +1,33 @@
-
 import './App.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
-import Home from './pages/Home';
 import Footer from './components/Footer';
-import About from './pages/About';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
-import Merchandise from './pages/Merchandise';
+import { lazy, Suspense } from 'react';
 
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Blog = lazy(() => import('./pages/Blog'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Merchandise = lazy(() => import('./pages/Merchandise'));
 
 function App() {
-
   return (
     <>
-
-    <Router>
-    <Navbar />
-    <Routes>
-      <Route path='/' Component={Home} />
-      <Route path='/about' Component={About} />
-      <Route path='/blog' Component={Blog} />
-      <Route path='/contact' Component={Contact} />
-      <Route path='/merchandise' Component={Merchandise} />
-
-    </Routes>
-    </Router>
-       <Footer />
-     
+      <Router>
+        <Navbar />
+        <Suspense fallback={<div className='text-center mt-52 font-extrabold text-5xl'>Loading...</div>}>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/blog' element={<Blog />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/merchandise' element={<Merchandise />} />
+          </Routes>
+        </Suspense>
+      </Router>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
